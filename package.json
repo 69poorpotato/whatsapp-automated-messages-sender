@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-automated-messages-sender",
+  "name": "whatsapp-automated-messages-sender-js",
   "version": "1.0.0",
   "description": "Automated WhatsApp messaging bridge and scheduler",
   "main": "index.js",

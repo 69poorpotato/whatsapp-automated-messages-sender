@@ -1,11 +1,11 @@
-# whatsapp-automated-messages-sender
+# whatsapp-automated-messages-sender-js
 
 Production-ready, modular WhatsApp messaging service and automated dispatcher built with Node.js, Express, and whatsapp-web.js.
 
 ## Architecture
 
 ```
-whatsapp-automated-messages-sender/
+whatsapp-automated-messages-sender-js/
 ├── src/
 │   ├── client/
 │   │   └── whatsapp.js         # WhatsApp client lifecycle, QR auth, event handlers
@@ -34,8 +34,8 @@ whatsapp-automated-messages-sender/
 ## Installation
 
 ```bash
-git clone https://github.com/69poorpotato/whatsapp-automated-messages-sender.git
-cd whatsapp-automated-messages-sender
+git clone https://github.com/69poorpotato/whatsapp-automated-messages-sender-js.git
+cd whatsapp-automated-messages-sender-js
 npm install
 ```
 
