@@ -2,9 +2,9 @@
   "name": "whatsapp-automated-messages-sender",
   "version": "1.0.0",
   "description": "Automated WhatsApp messaging bridge and scheduler",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "keywords": [
     "whatsapp",
