@@ -1,0 +1,7 @@
+node_modules/
+session/
+.wwebjs_cache/
+.venv/
+__pycache__/
+*.log
+.env

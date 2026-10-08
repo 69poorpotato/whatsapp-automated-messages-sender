@@ -1,0 +1,15 @@
+services:
+  whatsapp-automated-messages-sender:
+    container_name: whatsapp-automated-messages-sender
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3005:3000"
+    environment:
+      - PORT=3000
+      - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+      - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+    volumes:
+      - ./session:/app/session

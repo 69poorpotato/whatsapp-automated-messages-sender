@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-automated-messages-sender",
+  "version": "1.0.0",
+  "description": "Automated WhatsApp messaging bridge and scheduler",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "automation",
+    "rest-api",
+    "whatsapp-web.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
